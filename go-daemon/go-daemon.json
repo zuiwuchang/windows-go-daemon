@@ -1,0 +1,24 @@
+{
+	"_comment":"服務名稱",
+	"Name":"go-daemon-test",
+	
+	"_comment":"服務 顯示名稱",
+	"Show":"go-daemon 測試服務",
+	
+	"_comment":"服務 描述",
+	"Description":"用於 測試 go-daemon 組件是否正常工作的 服務",
+	
+	"_comment":"啓動方式是否爲 自動",
+	"Auto":true,
+	
+
+
+	"_comment":"被守衛進程 路徑",
+	"Bin":"simulator/run.bat",
+	
+	"_comment":"被守衛進程 工作路徑",
+	"Directory":"",
+
+	"_comment":"被守衛進程 執行參數",
+	"Params":""
+}
